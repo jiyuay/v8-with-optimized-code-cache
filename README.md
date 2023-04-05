@@ -1,2 +1,2 @@
 # v8-with-optimized-code-cache
-在jsfunction是否开启inline cache或由turbofan优化为机器码记录在code cache中，code cache反序列化jsfunction时会根据添加的记录为jsfunction做预测性的优化。
+将jsfunction是否开启inline cache或由turbofan优化为机器码的信息记录在code cache中，code cache反序列化jsfunction时会根据添加的记录为jsfunction做预测性的优化。
